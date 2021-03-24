@@ -1,0 +1,30 @@
+<breakfast-menu plan="tomorrow">
+    <food id="1">
+        <name>Chocolate</name>
+        <price currency="dollar">$5.95</price>
+    </food>
+    <food id="2">
+        <name>Strawberry Belgian Waffles</name>
+        <price>$7.95</price>
+    </food>
+    <food id="3">
+        <name>Belgian Waffles</name>
+        <price>$4.95</price>
+    </food>
+    <food id="4">
+        <name>Meat</name>
+        <price>$5.20</price>
+    </food>
+    <food id="5">
+        <name>Eggs</name>
+        <price>$1.54</price>
+    </food>
+    <food id="6">
+        <name>Tomato</name>
+        <price>$3.59</price>
+    </food>
+    <food id="6">
+        <name>Bread</name>
+        <price>$1.01</price>
+    </food>
+</breakfast-menu>
