@@ -16,13 +16,14 @@ public class XMLParserDAOImpl implements XMLParserDAO {
     private final NodeFactory nodeFactory = new NodeFactory();
 
     @Override
-    public Node parse(String fileName) throws IOException, XMLParserDAOException {
+    public Node parse(String fileName) throws XMLParserDAOException, IOException{
         BufferedReader bufferedReader;
         String line;
         try {
             bufferedReader = new BufferedReader(new FileReader(fileName));
             line = bufferedReader.readLine();
         } catch (IOException exception) {
+            exception.printStackTrace();
             throw new XMLParserDAOException("File for parsing not found!");
         }
         Deque<Node> stack = new ArrayDeque<>();
